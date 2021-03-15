@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Object Document</title>
+</head>
+<body>
+	<SCRIPT language="JavaScript">
+		//function ubahwarna BG = Background
+		//function ubahwarna TXT = Text
+		function ubahWarnaBG(warna){
+			document.bgColor = warna;
+		}
+		function ubahWarnaTXT(warna){
+			document.fgColor = warna;
+		}
+	</SCRIPT>
+	<h1>TES</h1>
+	<form>
+		<!-- jika button ditekan maka akan berubah sesuai dengan function nya masing masing -->
+		<input type="button" 
+		value="Latar Belakang Hijau"
+		onclick="ubahWarnaBG('green')" >
+		<input type="button" 
+		value="Latar Belakang Putih" 
+		onclick="ubahWarnaBG('white')">
+		<input type="button" 
+		value="Teks Kuning" 
+		onclick="ubahWarnaTXT('yellow')">
+		<input type="button" 
+		value="Teks Biru" 
+		onclick="ubahWarnaTXT('blue')">
+	</form>
+
+</body>
+</html>
